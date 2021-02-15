@@ -1,0 +1,19 @@
+body{
+    width:1200px;
+    margin: auto;
+}
+
+li:nth-child(odd)
+{
+    color:red;
+    background-color: green;
+}
+li:nth-child(even)
+{
+    color:blue;
+    background-color: saddlebrown;
+}
+
+h1{
+    text-align: center;
+}
