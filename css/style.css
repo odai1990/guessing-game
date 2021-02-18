@@ -2,16 +2,31 @@ body{
     width:1200px;
     margin: auto;
 }
-
+ol:first-of-type
+{
+    float: left;   
+    padding: 4%;
+    width: 33%;
+}
+ol:nth-child(even)
+{
+    float: right;    
+    padding: 4%;
+    width: 33%;
+}
+ul:only-of-type
+{
+    clear: both;
+}
 li:nth-child(odd)
 {
-    color:red;
-    background-color: green;
+    color:#ff5b5b;
+    background-color: #ffffff;
 }
 li:nth-child(even)
 {
-    color:blue;
-    background-color: saddlebrown;
+    color:#ff00e0;
+    background-color: #e0eae0;
 }
 
 h1{
